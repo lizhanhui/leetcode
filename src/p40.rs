@@ -1,5 +1,3 @@
-use std::thread::current;
-
 struct Solution;
 
 impl Solution {

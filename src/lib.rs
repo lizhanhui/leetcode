@@ -1,5 +1,6 @@
 mod p225;
 mod p228;
+mod p2483;
 mod p38;
 mod p39;
 mod p40;

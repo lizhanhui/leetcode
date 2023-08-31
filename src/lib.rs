@@ -1,3 +1,4 @@
+mod p1326;
 mod p225;
 mod p228;
 mod p2483;

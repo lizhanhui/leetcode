@@ -7,6 +7,7 @@ mod p228;
 mod p2483;
 mod p26;
 mod p27;
+mod p274;
 mod p38;
 mod p39;
 mod p40;

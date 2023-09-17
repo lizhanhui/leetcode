@@ -4,6 +4,7 @@ mod p13;
 mod p1326;
 mod p134;
 mod p135;
+mod p14;
 mod p150;
 mod p169;
 mod p189;
@@ -19,9 +20,9 @@ mod p39;
 mod p40;
 mod p45;
 mod p55;
+mod p58;
 mod p80;
 mod p88;
-mod p58;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

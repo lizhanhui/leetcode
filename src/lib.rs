@@ -24,6 +24,7 @@ mod p55;
 mod p58;
 mod p80;
 mod p88;
+mod p6;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

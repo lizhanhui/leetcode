@@ -17,7 +17,7 @@ impl Solution {
                 if j >= needle.len() {
                     return i as i32;
                 }
-                if i +j >= haystack.len() {
+                if i + j >= haystack.len() {
                     return -1;
                 }
                 if needle[j] != haystack[i + j] {
@@ -47,7 +47,8 @@ mod tests {
 
     #[test]
     fn case2() {
-        let haystack = "leetcode"; let needle = "leeto";
+        let haystack = "leetcode";
+        let needle = "leeto";
         let expected = -1;
         assert_eq!(
             expected,

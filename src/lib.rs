@@ -24,6 +24,7 @@ mod p45;
 mod p55;
 mod p58;
 mod p6;
+mod p68;
 mod p80;
 mod p88;
 

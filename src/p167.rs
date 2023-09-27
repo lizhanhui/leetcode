@@ -6,6 +6,10 @@ struct Solution;
 /// Your solution must use only constant extra space.
 impl Solution {
     pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
+        Self::fast(&numbers, target)
+    }
+
+    fn slow(numbers: &[i32], target: i32) -> Vec<i32> {
         let mut res = vec![];
 
         let n = numbers.len();
@@ -15,6 +19,30 @@ impl Solution {
                 res.push(i as i32 + 1);
                 res.push(*idx as i32 + 1 + i as i32 + 1);
                 return res;
+            }
+        }
+        res
+    }
+
+    fn fast(nums: &[i32], target: i32) -> Vec<i32> {
+        let mut res = vec![];
+
+        let mut l = 0;
+        let mut r = nums.len() - 1;
+        loop {
+            if l >= r {
+                break;
+            }
+
+            let s = nums[l] + nums[r];
+            if s == target {
+                res.push(l as i32 + 1);
+                res.push(r as i32 + 1);
+                break;
+            } else if s < target {
+                l += 1;
+            } else {
+                r -= 1;
             }
         }
         res

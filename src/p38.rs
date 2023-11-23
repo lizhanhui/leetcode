@@ -80,7 +80,7 @@ mod tests {
     fn test_count_and_say_case3() {
         assert_eq!(&super::Solution::count_and_say(3), "21");
     }
-    
+
     #[test]
     fn test_count_and_say_case4() {
         assert_eq!(&super::Solution::count_and_say(4), "1211");

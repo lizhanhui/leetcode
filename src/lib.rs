@@ -7,6 +7,7 @@ mod p1326;
 mod p134;
 mod p135;
 mod p14;
+mod p1424;
 mod p150;
 mod p151;
 mod p167;

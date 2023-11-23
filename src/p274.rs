@@ -1,7 +1,7 @@
 struct Solution;
 
-// The h-index is defined as the maximum value of h 
-// such that the given researcher has published at least 
+// The h-index is defined as the maximum value of h
+// such that the given researcher has published at least
 // h papers that have each been cited at least h times.
 impl Solution {
     pub fn h_index(mut citations: Vec<i32>) -> i32 {

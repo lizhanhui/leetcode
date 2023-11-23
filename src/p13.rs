@@ -43,7 +43,7 @@ impl Solution {
             } else {
                 s += m[&c];
             }
-            
+
             i += 1;
         }
         s

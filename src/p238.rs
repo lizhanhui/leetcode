@@ -26,16 +26,8 @@ impl Solution {
         res.resize(len, 0);
 
         for i in 0..len {
-            let lhs = if i > 0 {
-                l[i - 1]
-            } else {
-                1
-            };
-            let rhs = if i < len - 1 {
-                r[i + 1]
-            } else {
-                1
-            };
+            let lhs = if i > 0 { l[i - 1] } else { 1 };
+            let rhs = if i < len - 1 { r[i + 1] } else { 1 };
             res[i] = lhs * rhs;
         }
 

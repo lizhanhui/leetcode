@@ -17,7 +17,7 @@ impl Solution {
         }
         let mut s = 0;
         for i in 0..len {
-           s += m_l[i].min(m_r[i]) - height[i];
+            s += m_l[i].min(m_r[i]) - height[i];
         }
         s
     }

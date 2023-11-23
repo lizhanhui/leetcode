@@ -56,9 +56,8 @@ mod tests {
     #[test]
     fn wa2() {
         // 1, 2, 3, 4, 1
-        let ratings = vec![1,3,4,5,2];
+        let ratings = vec![1, 3, 4, 5, 2];
         let expected = 11;
         assert_eq!(expected, super::Solution::candy(ratings));
     }
-
 }

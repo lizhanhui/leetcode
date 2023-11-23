@@ -1,6 +1,11 @@
 struct Solution;
 
 impl Solution {
+    ///
+    /// Time Complexity: O(MN)
+    /// Space Complexity: O(MN)
+    /// TODO: reduce space complexity to o(N) ?
+    /// TODO: non-recursive implementation?
     pub fn min_distance(word1: String, word2: String) -> i32 {
         // d[i][j] = min-distance(&word1[..i], &word2[..j]);
         //

@@ -22,6 +22,7 @@ mod p26;
 mod p27;
 mod p274;
 mod p28;
+mod p300;
 mod p38;
 mod p39;
 mod p392;

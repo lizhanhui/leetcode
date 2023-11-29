@@ -33,6 +33,7 @@ mod p400;
 mod p415;
 mod p45;
 mod p48;
+mod p50;
 mod p55;
 mod p58;
 mod p6;

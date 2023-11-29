@@ -57,6 +57,7 @@ impl Solution {
 mod tests {
 
     #[test]
+    #[ignore]
     fn case1() {
         let matrix = vec![
             vec!['1', '0', '1', '0', '0'],

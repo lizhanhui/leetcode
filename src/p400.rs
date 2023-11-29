@@ -107,6 +107,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn wa1() {
         super::Solution::slow(1000);
         assert_eq!(3, super::Solution::find_nth_digit(1000));

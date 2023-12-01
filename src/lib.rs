@@ -10,6 +10,7 @@ mod p14;
 mod p1424;
 mod p150;
 mod p151;
+mod p1662;
 mod p167;
 mod p169;
 mod p189;

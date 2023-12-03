@@ -2,6 +2,7 @@ mod p11;
 mod p12;
 mod p121;
 mod p125;
+mod p1266;
 mod p13;
 mod p1326;
 mod p134;

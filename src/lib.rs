@@ -38,6 +38,7 @@ mod p45;
 mod p48;
 mod p50;
 mod p55;
+mod p56;
 mod p58;
 mod p6;
 mod p68;

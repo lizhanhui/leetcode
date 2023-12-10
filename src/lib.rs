@@ -1,3 +1,4 @@
+mod p1025;
 mod p11;
 mod p12;
 mod p121;
@@ -15,6 +16,7 @@ mod p1662;
 mod p167;
 mod p169;
 mod p17;
+mod p18;
 mod p189;
 mod p191;
 mod p2147;

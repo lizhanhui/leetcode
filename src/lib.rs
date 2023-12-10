@@ -47,6 +47,7 @@ mod p58;
 mod p6;
 mod p68;
 mod p72;
+mod p764;
 mod p80;
 mod p88;
 
